@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ETL_LAND
+    database: ETL_DBT_001_003_006
+    schema: LANDING
+    tables:
+      - name: ORD
+        identifier: ORDERS
