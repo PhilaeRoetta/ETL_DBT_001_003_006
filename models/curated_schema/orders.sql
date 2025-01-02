@@ -1,5 +1,4 @@
 {{ config(
-    schema='CURATED',
     materialized = 'incremental',
     unique_key = 'ORDER_ID'
 ) }}
